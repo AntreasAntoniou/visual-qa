@@ -20,16 +20,17 @@ Visual QA intentionally does not bundle a browser driver or agent framework. It 
 
 ## Quick start
 
-1. Copy `adapters/_template.md` to an adapter owned by your project.
-2. Fill in the capture command, deterministic controls, flows, states, breakpoints, themes, and test commands.
-3. Run capture.
-4. Validate the gallery:
+1. Install the skill: `npx skills add AntreasAntoniou/visual-qa`.
+2. Copy `adapters/_template.md` to an adapter owned by your project.
+3. Fill in the capture command, deterministic controls, flows, states, breakpoints, themes, and test commands.
+4. Run capture.
+5. Validate the gallery:
 
 ```bash
 python3 scripts/validate_manifest.py path/to/qa-shots/manifest.json --check-files
 ```
 
-5. Invoke the skill in `review` mode with the adapter and desired tier.
+6. Invoke the skill in `review` mode with the adapter and desired tier.
 
 ## Privacy
 
